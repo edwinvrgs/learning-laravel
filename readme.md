@@ -11,4 +11,4 @@
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 ### Credits
-To Duilio Palacios https://clarity.fm/duilio - "Curso primeros pasos con Laravel" https://styde.net/
+To Duilio Palacios https://clarity.fm/duilio - "Curso primeros pasos con Laravel" from https://styde.net/
