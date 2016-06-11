@@ -14,7 +14,7 @@
             <span class="label label-info">Others</span>
           @endif
           {{ str_limit($note->note, 80, '...') }}
-          <a href="{{ url('notes/'.$note->id) }}">View note</a>
+          <a href="{{ url('notes/'.$note->id) }}" class="small">View note</a>
         </li>
       @endforeach
   </ul>
