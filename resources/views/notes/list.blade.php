@@ -7,9 +7,10 @@
     <a href="{{ url('notes/create') }}">Add a note</a>
   </p>
 
-  <ul>
+  <ul class="list-group">
       @foreach($notes as $note)
-        <li>
+        <li class="list-group-item">
+          {{ $note->category->name }}
           {{ $note->note }}
         </li>
       @endforeach
