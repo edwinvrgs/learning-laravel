@@ -34,8 +34,10 @@ class NotesController extends Controller
         return redirect()->to('notes');
     }
 
-    public function show($note)
+    public function show($id)
     {
-        dd($note);
+        $note = Note::find($id);
+
+        return view('notes/details', compact('note'));
     }
 }

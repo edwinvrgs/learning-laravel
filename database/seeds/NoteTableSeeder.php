@@ -13,7 +13,7 @@ class NoteTableSeeder extends Seeder
      */
     public function run()
     {
-        $categorias = Category::all();
+        $categories = Category::all();
 
         $notes = factory(Note::class)->times(100)->make();
 
